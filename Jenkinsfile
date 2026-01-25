@@ -7,7 +7,7 @@ pipeline {
         stage('Get Code') {
             steps {
                 echo '📥 Getting code from GitHub...'
-                git 'https://github.com/YOUR_USERNAME/my-php-app.git'
+                git 'https://github.com/alexlawtengyi6-bit/demo_jenkins.git'
             }
         }
         
@@ -57,4 +57,5 @@ pipeline {
             echo '❌ FAILED! Check the errors above.'
         }
     }
+
 }
